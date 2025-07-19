@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects | Suraj Varne Sheela</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <header>
+    <div class="header-left">
+      <img src="profilepic.jpg" alt="Suraj Varne Sheela Profile Photo" class="profile-pic" />
+    </div>
+    <div class="header-center">
+      <h1>Suraj Varne Sheela</h1>
+      <p class="tagline">Computer Science Graduate &bull; AI Innovator &bull; Software Development</p>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="documents.html">Documents</a></li>
+          <li><a href="work.html">Work Experience</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="about-center">
+      <h2> My Projects</h2>
+
+      <div class="project">
+        <h3>Fake News Detection & Summarization with ML & Transformers</h3>
+        <p class="tags">ML, Transformers, BERTSum, scikit-learn</p>
+        <p>
+          • Architected an abstractive classification summarization pipeline using BERTSum, integrating Transformers, scikit-learn, NLTK, & Torch; reduced article length by 63% with &gt;82% semantic retention & a 21% gain in key-point recall.
+        </p>
+        <p>
+          • Used TF-IDF + SVM, Naïve Bayes, & Logistical Regression with custom beam search, max length, & dropout turning to boost ROUGE-Lsum by 18.2%, achieve an F1-score of 0.86, and deliver a 24% lift over baseline, validated via confusion matrices.
+        <p class="links"><a href="https://github.com/Panthi2001/Natural_Language">🔗 Source Code</a></p>
+      </div>
+
+      <div class="project">
+        <h3>Generative AI-Powered Recipe Web Application</h3>
+        <p class="tags">JavaScript, AWS, DynamoDB, Redis</p>
+        <p>
+          • Developed a Generative AI web app with JavaScript, AWS Amplify, & Lambda, leveraging DynamoDB and Redis for real-time data processing, achieving sub-200 ms response times for 350+ concurrent queries; optimized API calls with API Gateway, maintaining a 99.9% success rate while supporting 170+ users & ensuring seamless performance through AWS CloudWatch.
+        </p>
+        <p>
+          • Decoupled AI inference from API requests via AWS SQS/SNS, reducing API throttling by 12% & bolstering system resilience.
+       </p>
+        <p class="links"><a href="https://github.com/SuraajVarne/ai-recipe-generator">🔗 Source Code</a></p>
+      </div>
+
+      <!-- Added new projects here -->
+      <div class="project">
+        <h3>FAT File System Extractor & FUSE Integration</h3>
+        <p class="tags">C, Rust, Python, Kafka, GraphQL</p>
+        <p>
+          • Designed a FAT File System Extractor with FUSE in C, parsing 4GB disk images to extract 10,000+ file entries with zero data loss, leveraging asynchronous I/O & optimized thread pools to cut CPU overhead by 21% & boost concurrent file access by 31%.
+        </p>
+        <p>
+          • Extended functionality with Rust for memory-safe extensions & Python for cutting extraction verification time by 12%, while integrating Kafka & GraphQL for real-time data streaming & querying, reducing corrupted file errors by 52%.
+        </p>
+        <p class="links"><a href="https://github.com/SuraajVarne/FAT-File-System-Extractor-FUSE-Integration">🔗 Source Code</a></p>
+      </div>
+
+      <div class="project">
+        <h3>RESTful Key Management System with JWKS API</h3>
+        <p class="tags">Python, Flask, PyCryptodome, SQLAlchemy, SQLite, OAuth</p>
+        <p>
+          • Devised a RESTful JWKS server in Python using Flask & PyCryptodome to manage 100+ RSA Keys & process 200+ concurrent requests for public keys & JWTs, achieving a 18.5% reduction in retrieval latency by asynchronous processing.
+        </p>
+        <p>
+          • Crafted a key management system SQLAlchemy with SQLite for persistent storage of 30 RSA Keys, optimizing ORM queries, indexing, & connection pooling to achieve 91% query efficiency & strengthen JWT security.
+        </p>
+        <p>
+          • Revamped server architecture to integrate user authentication using OAuth, processing 50+ registrations to streamline access.
+        </p>
+        <p class="links"><a href="https://github.com/SuraajVarne/JWKS-Server-with-Key-Management-SQL-Integration">🔗 Source Code</a></p>
+      </div>
+
+      <div class="project">
+        <h3>Async Network Server & Proxy System</h3>
+        <p class="tags">Python, Asyncio, TLS</p>
+        <p>
+          • Built an asynchronous HTTPs server in Python, using Asyncio & TLS with 15s TTL caching, reducing duplicate requests by 27% & boosting response efficiency by 5%; fine-tuned load-balancing request routing with target selection, reducing overload by 32%.
+        </p>
+        <p class="links"><a href="https://github.com/SuraajVarne/Async-Network-Server-Proxy-System">🔗 Source Code</a></p>
+      </div>
+
+      <!-- Add more projects in same structure below -->
+
+    </section>
+  </main>
+
+  <footer>
+    <p>Connect with me:</p>
+    <div class="footer-buttons">
+      <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer" class="btn">LinkedIn</a>
+      <a href="https://github.com/SuraajVarne" target="_blank" rel="noopener noreferrer" class="btn">GitHub</a>
+      <a href="mailto:suraajvarnesheela@gmail.com" class="btn">Send Email</a>
+    </div>
+    <p>© 2025 Suraj Varne Sheela. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
